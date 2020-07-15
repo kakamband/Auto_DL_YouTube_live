@@ -6,25 +6,19 @@
 
 
 ### 2. プログラムの入力パラメータ:
-  -h, --help      show this help message and exit
-  --url           https://www.youtube.com/*****
-  --CCTV          CCTVカメラの名前/場所
-                  ディフォルト: live
-  --chunks        ビデオの長さ
-                  ディフォルト: 15
-  --step          10フレーム毎で画像作成
-                  ディフォルト: 10
-  --ext           画像ファイル形式
-                  ディフォルト: jpg
-  --dir_videos    ビデオの保存場所
-                  ディフォルト: ./output
-  --dir_frames    フレーム・画像の保存場所
-                  ディフォルト: ./frames
-  --dontsv_frames   フレーム・画像を作成するか否か
-                  ディフォルト: False
-  --save_videos   ビデオを保存するか否か
-                  ディフォルト: False
-  コマンド入力例：
+  -h, --help      show this help message and exit  
+  --url           https://www.youtube.com/*****  
+  --CCTV          CCTVカメラの名前/場所  
+  --chunks        ビデオの長さ  
+  --step          10フレーム毎で画像作成  
+  --ext           画像ファイル形式  
+  --dir_videos    ビデオの保存場所  
+  --dir_frames    フレーム・画像の保存場所  
+  --dontsv_frames   フレーム・画像を作成するか否か  
+  --save_videos   ビデオを保存するか否か  
+
+####  コマンド入力例：
+
     1) フレーム・画像作成、ビデオ保存しない
     python get_yt_live.py --url https://www.youtube.com/*****
 
