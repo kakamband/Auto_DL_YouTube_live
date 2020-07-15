@@ -1,0 +1,6 @@
+# pip install -U -r requirements.txt
+urllib3
+m3u8
+streamlink
+argparse
+opencv-python
